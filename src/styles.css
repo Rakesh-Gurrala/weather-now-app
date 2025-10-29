@@ -1,0 +1,56 @@
+.weather-icon {
+  text-align: center;
+  margin: 8px auto;
+}
+
+.card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title {
+  font-size: 20px;
+  padding: 15px;
+  color: blue;
+}
+.search-btn {
+    background: black;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.temp {
+    font-size: 20px;
+    color: yellow;
+    padding-bottom: 5px;
+}
+.dese {
+    font-size: 10px;
+}
+
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://ik.imagekit.io/RakeshGurrala/background.jpg?updatedAt=1761732233220");
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 10px;
+  }
+}
